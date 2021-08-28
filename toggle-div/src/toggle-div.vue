@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./src/styles/common.less";
+@import "../../styles/common.less";
 
 .toggle-svg {
   font-size: 14px;
