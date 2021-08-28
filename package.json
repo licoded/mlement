@@ -1,10 +1,11 @@
 {
-  "name": "mlement",
+  "name": "@licoded/mlement",
   "version": "1.0.0",
   "description": "A toy component library for self-use.",
   "main": "index.js",
   "scripts": {
   },
+  "git": "git://github.com/licoded/mlement.git",
   "keywords": [],
   "author": "licoded",
   "license": "MIT"
