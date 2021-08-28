@@ -1,0 +1,11 @@
+{
+  "name": "mlement",
+  "version": "1.0.0",
+  "description": "A toy component library for self-use.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "licoded",
+  "license": "MIT"
+}
