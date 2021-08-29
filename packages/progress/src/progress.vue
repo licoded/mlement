@@ -50,8 +50,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "../../styles/common.less";
-
 .ml-progress {
   display: inline-block;
 

@@ -1,7 +1,7 @@
-import Progress from './progress';
-import Span from './span';
-import Status from './status';
-import ToggleDiv from './toggle-div';
+import Progress from '../packages/progress';
+import Span from '../packages/span';
+import Status from '../packages/status';
+import ToggleDiv from '../packages/toggle-div';
 
 const components = [
   Progress,

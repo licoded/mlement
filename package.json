@@ -2,7 +2,14 @@
   "name": "@licoded/mlement",
   "version": "1.0.2",
   "description": "A toy component library for self-use.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "files": [
+    "lib",
+    "src",
+    "packages",
+    "types"
+  ],
+  "typings": "types/index.d.ts",
   "scripts": {
   },
   "git": "git://github.com/licoded/mlement.git",

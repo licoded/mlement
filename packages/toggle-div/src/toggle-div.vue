@@ -50,8 +50,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "../../styles/common.less";
-
 .toggle-svg {
   font-size: 14px;
   vertical-align: baseline;
