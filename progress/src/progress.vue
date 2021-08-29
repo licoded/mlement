@@ -15,7 +15,7 @@ const flexDirectionMap = {
 export default {
   name: 'MlProgress',
   props: {
-    pos: {
+    align: {
       type: String,
       default: 'left',
     },
@@ -43,7 +43,7 @@ export default {
       return style;
     },
     flexDirection() {
-      return flexDirectionMap[this.pos];
+      return flexDirectionMap[this.align];
     },
   },
 };

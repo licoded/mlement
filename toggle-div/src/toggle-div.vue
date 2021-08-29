@@ -32,8 +32,8 @@ export default {
       default: '',
     },
     mh: {
-      type: String,
-      default: '10',
+      type: Number,
+      default: 10,
     },
   },
   data() {
