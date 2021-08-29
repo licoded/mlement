@@ -1,5 +1,5 @@
 <template>
-  <span :class="['ml-span', 'ml-span'+type]">
+  <span :class="['ml-span', type ? 'ml-span-'+type : '']">
     <slot name="default" />
   </span>
 </template>

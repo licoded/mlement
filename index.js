@@ -1,10 +1,12 @@
 import Progress from './progress';
 import Span from './span';
+import Status from './status';
 import ToggleDiv from './toggle-div';
 
 const components = [
   Progress,
   Span,
+  Status,
   ToggleDiv,
 ];
 
@@ -16,5 +18,6 @@ export default {
   install,
   Progress,
   Span,
+  Status,
   ToggleDiv,
 };

@@ -1,6 +1,6 @@
 {
   "name": "@licoded/mlement",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A toy component library for self-use.",
   "main": "index.js",
   "scripts": {

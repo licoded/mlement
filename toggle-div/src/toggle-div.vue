@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="flex-layout align-center" @click="changeCollapsed">
+  <div class="ml-toggle-div">
+    <div class="flex-layout align-center" :style="{marginBottom: mh+'px'}" @click="changeCollapsed">
       <svg :class="['toggle-svg', collapsed ? 'collapsed' : '']" xmlns="http://www.w3.org/2000/svg" width="14" height="14">
         <g fill="none" fill-rule="evenodd">
           <path
@@ -30,6 +30,10 @@ export default {
     label: {
       type: String,
       default: '',
+    },
+    mh: {
+      type: String,
+      default: '10',
     },
   },
   data() {
